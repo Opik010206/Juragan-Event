@@ -16,7 +16,7 @@ use Illuminate\Support\Facades\Route;
 
 // Home
 Route::get('/', function () {
-    return view('home', [
+    return view('index', [
         'tittle' => 'Home'
     ]);
 });
