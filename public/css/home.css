@@ -1,0 +1,73 @@
+/* Carousel */
+.hero .carousel-item{
+    height: 90vh;
+    background: #000000;
+    color: #ffffff;
+}
+.hero .carousel-item img{
+    filter: opacity(50%);
+    object-fit: cover;
+    min-height: 100vh;
+}
+.hero .carousel-container{
+    position: absolute;
+    bottom: 0;
+    left: 0; right: 0;
+    top: 35%;
+}
+.hero .carousel-container p{
+    width: 70%;
+    margin: auto;
+    padding: 20px 0;
+}
+
+
+/* mitra */
+.mitra{
+    transition: all .5s;
+}
+.mitra:hover{
+    transform: translateY(-2px);
+    transition: all .5s;
+    cursor: pointer;
+}
+.mitra img{
+    height: 80px;
+    border-radius: 20px;
+    object-fit: cover;
+    margin-bottom: 10px;
+    overflow: hidden;
+}
+
+
+
+/* Kategori Event */
+.kategoriImg img{
+    position: relative;
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+    object-fit: cover;
+    margin-bottom: 10px;
+    overflow: hidden;
+    filter: brightness(70%);
+    cursor: pointer;
+}
+.kategoriImg img:hover{
+    filter: brightness(60%);
+}
+.kategoriImg p{
+    cursor: pointer;
+    bottom: 0;
+}
+.kategori{
+    cursor: pointer;
+}
+
+
+/* Slider Galery */
+.imgSlider img{
+    object-fit: cover;
+    min-height: 100vh;
+}
+
